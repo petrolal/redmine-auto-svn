@@ -1,0 +1,8 @@
+http://svn.saude.gov.br/svn/E-SAUDE-CIDADAO-MOB	
+https://svn.saude.gov.br/svn/PROSUS-MOB	
+http://svn.saude.gov.br/svn/DATASUS-CORPORATIVO
+http://svn.saude.gov.br/svn/SIPNI-MOB
+https://svn.saude.gov.br/svn/PAINEL-GESTAO-DATASUS/
+http://svn.saude.gov.br/svn/MODULO_ADMINISTRATIVO_RNDS
+https://svn.saude.gov.br/svn/GATEWAY-RNDS
+https://svn.saude.gov.br/svn/RNDS 

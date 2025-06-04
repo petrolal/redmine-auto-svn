@@ -1,0 +1,27 @@
+[project]
+name = "redmine-auto-svn"
+version = "0.1.0"
+description = "Automação de tarefas com Redmine e SVN"
+authors = [
+    { name="Lucas Petrola", email="lucas.petrola@zello.tec.br" }
+]
+dependencies = [
+    "typer[all]",
+    "python-dotenv",
+    "svn",
+    "tqdm",
+    "python-redmine"
+]
+requires-python = ">=3.9"
+
+[project.scripts]
+redmine-auto-svn = "redmine_auto_svn.cli:app"
+
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+packages = ["redmine_auto_svn"]
+
