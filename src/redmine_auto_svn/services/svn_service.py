@@ -87,7 +87,6 @@ class SvnService:
                 if match:
                     trecho = match.group(1)
                     if '_' not in trecho:
-                        # print(trecho)
                         redmineService = RedmineService()
                         redmineService.buscar_issue_por_id(int(trecho))
                         
